@@ -1,0 +1,8 @@
+Opções a mais no Graphics
+
+Colar fontes e escrever na tela 
+
+	g.setFont(new Font("Arial",Font.BOLD,20)); 
+	//Importa uma fonte para o Game, a fonte pode ser trocada dentro das "".
+	g.setColor(Color.white);
+	g.drawString("Olá",19,19);
